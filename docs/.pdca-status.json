@@ -1,0 +1,226 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-02-20T17:28:45.379Z",
+  "activeFeatures": [
+    "atoms",
+    "molecules",
+    "organisms",
+    "templates",
+    "testtesttest",
+    "다크모드"
+  ],
+  "primaryFeature": "atoms",
+  "features": {
+    "atoms": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-20T16:57:24.953Z",
+        "lastUpdated": "2026-02-20T17:19:17.280Z"
+      },
+      "lastFile": "C:\\Users\\jooladen\\Desktop\\cluade-code2\\testtesttest\\components\\atoms\\Badge.tsx"
+    },
+    "molecules": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-20T16:57:32.636Z",
+        "lastUpdated": "2026-02-20T17:19:10.043Z"
+      },
+      "lastFile": "C:\\Users\\jooladen\\Desktop\\cluade-code2\\testtesttest\\components\\molecules\\ProjectCard.tsx"
+    },
+    "organisms": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-20T16:57:37.821Z",
+        "lastUpdated": "2026-02-20T17:18:30.372Z"
+      },
+      "lastFile": "C:\\Users\\jooladen\\Desktop\\cluade-code2\\testtesttest\\components\\organisms\\Header.tsx"
+    },
+    "templates": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-20T16:57:42.711Z",
+        "lastUpdated": "2026-02-20T17:18:46.764Z"
+      },
+      "lastFile": "C:\\Users\\jooladen\\Desktop\\cluade-code2\\testtesttest\\components\\templates\\PortfolioLayout.tsx"
+    },
+    "testtesttest": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-20T16:58:41.104Z",
+        "lastUpdated": "2026-02-20T17:28:45.379Z"
+      },
+      "lastFile": "C:\\Users\\jooladen\\Desktop\\cluade-code2\\testtesttest\\app\\layout.tsx"
+    },
+    "다크모드": {
+      "phase": "act",
+      "phaseNumber": 5,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-02-20T17:23:14.631Z",
+        "lastUpdated": "2026-02-20T17:23:14.633Z"
+      },
+      "previousPhase": "check",
+      "autoAdvanced": true
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-02-20T16:48:07.021Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-02-20T17:28:45.379Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-02-20T16:57:24.953Z",
+      "feature": "atoms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T16:57:27.644Z",
+      "feature": "atoms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T16:57:32.636Z",
+      "feature": "molecules",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T16:57:37.821Z",
+      "feature": "organisms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T16:57:42.711Z",
+      "feature": "templates",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T16:58:41.104Z",
+      "feature": "testtesttest",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T16:58:48.247Z",
+      "feature": "testtesttest",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:17:54.347Z",
+      "feature": "atoms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:18:01.887Z",
+      "feature": "testtesttest",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:18:07.510Z",
+      "feature": "testtesttest",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:18:17.218Z",
+      "feature": "organisms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:18:23.133Z",
+      "feature": "organisms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:18:30.372Z",
+      "feature": "organisms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:18:46.764Z",
+      "feature": "templates",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:18:57.001Z",
+      "feature": "atoms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:19:10.043Z",
+      "feature": "molecules",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:19:17.280Z",
+      "feature": "atoms",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:19:43.973Z",
+      "feature": "testtesttest",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:23:14.633Z",
+      "feature": "다크모드",
+      "phase": "act",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-02-20T17:28:45.379Z",
+      "feature": "testtesttest",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}
