@@ -1,6 +1,9 @@
+"use client";
+
+import { motion } from "framer-motion";
 import { Badge } from "@/components/atoms/Badge";
 
-interface Project {
+type Project = {
   id: number;
   title: string;
   description: string;
@@ -8,15 +11,19 @@ interface Project {
   github: string;
   demo: string | null;
   period: string;
-}
+};
 
-interface ProjectCardProps {
+type ProjectCardProps = {
   project: Project;
-}
+};
 
 export function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="border border-neutral-200 dark:border-neutral-800 p-6 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors duration-200">
+    <motion.div
+      className="border border-neutral-200 dark:border-neutral-800 p-6"
+      whileHover={{ scale: 1.01, boxShadow: "0 4px 20px rgba(0,0,0,0.06)" }}
+      transition={{ duration: 0.2, ease: "easeOut" }}
+    >
       <div className="flex justify-between items-start mb-3">
         <h3 className="font-medium text-neutral-900 dark:text-neutral-100">{project.title}</h3>
         <span className="text-xs text-neutral-400 dark:text-neutral-500 font-mono ml-4 shrink-0">{project.period}</span>
@@ -47,6 +54,6 @@ export function ProjectCard({ project }: ProjectCardProps) {
           </a>
         )}
       </div>
-    </div>
+    </motion.div>
   );
 }

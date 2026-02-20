@@ -1,4 +1,5 @@
 import { PortfolioLayout } from "@/components/templates/PortfolioLayout";
+import { AnimatedSection } from "@/components/templates/AnimatedSection";
 import { SkillBar } from "@/components/atoms/SkillBar";
 import { ProjectCard } from "@/components/molecules/ProjectCard";
 import portfolioData from "@/mocks/portfolio.json";
@@ -9,7 +10,7 @@ export default function Home() {
   return (
     <PortfolioLayout>
       {/* About */}
-      <section id="about" className="py-24 border-b border-neutral-100 dark:border-neutral-800">
+      <AnimatedSection id="about" className="py-24 border-b border-neutral-100 dark:border-neutral-800" delay={0}>
         <div className="mb-2">
           <span className="text-xs font-mono text-neutral-400 dark:text-neutral-500 tracking-widest uppercase">
             {profile.mbti} · {profile.title}
@@ -45,10 +46,10 @@ export default function Home() {
             LinkedIn
           </a>
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Skills */}
-      <section id="skills" className="py-16 border-b border-neutral-100 dark:border-neutral-800">
+      <AnimatedSection id="skills" className="py-16 border-b border-neutral-100 dark:border-neutral-800" delay={0.05}>
         <h2 className="text-xs font-mono text-neutral-400 dark:text-neutral-500 tracking-widest uppercase mb-8">
           Skills
         </h2>
@@ -57,10 +58,10 @@ export default function Home() {
             <SkillBar key={skill.name} {...skill} />
           ))}
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Projects */}
-      <section id="projects" className="py-16 border-b border-neutral-100 dark:border-neutral-800">
+      <AnimatedSection id="projects" className="py-16 border-b border-neutral-100 dark:border-neutral-800" delay={0.05}>
         <h2 className="text-xs font-mono text-neutral-400 dark:text-neutral-500 tracking-widest uppercase mb-8">
           Projects
         </h2>
@@ -69,10 +70,10 @@ export default function Home() {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Experience */}
-      <section id="experience" className="py-16 border-b border-neutral-100 dark:border-neutral-800">
+      <AnimatedSection id="experience" className="py-16 border-b border-neutral-100 dark:border-neutral-800" delay={0.05}>
         <h2 className="text-xs font-mono text-neutral-400 dark:text-neutral-500 tracking-widest uppercase mb-8">
           Experience
         </h2>
@@ -90,10 +91,10 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </AnimatedSection>
 
       {/* Contact */}
-      <section id="contact" className="py-16">
+      <AnimatedSection id="contact" className="py-16" delay={0.05}>
         <h2 className="text-xs font-mono text-neutral-400 dark:text-neutral-500 tracking-widest uppercase mb-8">
           Contact
         </h2>
@@ -106,7 +107,7 @@ export default function Home() {
         >
           {profile.email}
         </a>
-      </section>
+      </AnimatedSection>
     </PortfolioLayout>
   );
 }

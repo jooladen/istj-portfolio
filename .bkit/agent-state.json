@@ -1,0 +1,28 @@
+{
+  "version": "1.0",
+  "enabled": false,
+  "teamName": "",
+  "feature": "새기능",
+  "pdcaPhase": "design",
+  "orchestrationPattern": "leader",
+  "ctoAgent": "opus",
+  "startedAt": "2026-02-20T17:49:41.342Z",
+  "lastUpdated": "2026-02-20T18:05:50.507Z",
+  "teammates": [],
+  "progress": {
+    "totalTasks": 0,
+    "completedTasks": 0,
+    "inProgressTasks": 0,
+    "failedTasks": 0,
+    "pendingTasks": 0
+  },
+  "recentMessages": [
+    {
+      "from": "system",
+      "to": "all",
+      "content": "Phase check → act (auto-advanced)",
+      "timestamp": "2026-02-20T17:56:42.957Z"
+    }
+  ],
+  "sessionId": "eca4e451-07fa-439a-83d5-db6feae5ee8f"
+}
